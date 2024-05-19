@@ -1,0 +1,105 @@
+.select {
+  margin: 20rpx 10rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.chat {
+  display: flex;
+  flex: 1;
+  background-color: #ebebeb;
+}
+.chatbox {
+  display: flex;
+  flex-direction: row;
+}
+.body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+.biggerpic {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+  margin-left: 20rpx;
+}
+
+.question {
+  padding-top: 200rpx;
+}
+.Ai {
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  font-size: 30rpx;
+}
+
+.option {
+  margin-top: 50rpx;
+}
+
+.option-item {
+  border: solid 1rpx #dde5ee;
+  margin-bottom: 20rpx;
+  padding: 20rpx 40rpx;
+}
+
+.success {
+  background-color: #0f0;
+  color: #fff;
+}
+
+.fail {
+  background-color: #f00;
+  color: #fff;
+}
+.pass {
+  margin-top: 500rpx;
+  margin-right: 350rpx;
+  width: 300rpx;
+  height: 50rpx;
+  text-align: center;
+  font-size: 30rpx;
+  border-radius: 50rpx;
+  background-color: rgba(219, 106, 30, 0.336);
+  color: #fff;
+}
+.pic {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+}
+.inputt {
+  display: flex;
+  flex: 1;
+  width: 85%;
+  height: 60rpx;
+  padding-left: 10%;
+  background-color: #fff;
+}
+.below {
+  height: 80rpx;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 10rpx;
+  align-items: center;
+}
+.belowpic {
+  display: flex;
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+}

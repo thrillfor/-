@@ -1,0 +1,52 @@
+<view>
+    <view class="container">
+        <image class="biggerpic" src="{{picture[index]}}" />
+        <picker bindchange="bindPickerChange" range="{{array}}">
+            <view class="picker">选择:{{array[index]}}</view>
+        </picker>
+        <image class="picc" src="../../static/编辑.png" bindtap="tospark" />
+    </view>
+    <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+    <mp-cells ext-class="my-cells">
+        <mp-cell ext-class="cel">
+            <image class="pic" slot="icon" src="../../static/头像.jpg" />
+            <view class="block">
+                <view class="subblock">
+                    <text class="title">行动研究法</text>
+                    <text class="time">今天</text>
+                </view>
+                <text class="subtitle">分享   收藏  重命名  删除</text>
+            </view>
+        </mp-cell>
+        <mp-cell ext-class="cel">
+            <image class="pic" slot="icon" src="../../static/头头像.jpg" />
+            <view class="block">
+                <view class="subblock">
+                    <text class="title">Rewrite the Title</text>
+                    <text class="time">昨天</text>
+                </view>
+                <text class="subtitle">分享   收藏  重命名  删除</text>
+            </view>
+        </mp-cell>
+        <mp-cell ext-class="cel">
+            <image class="pic" slot="icon" src="../../static/头头像.jpg" />
+            <view class="block">
+                <view class="subblock">
+                    <text class="title">Rewrite the Abstract</text>
+                    <text class="time">三天前</text>
+                </view>
+                <text class="subtitle">分享   收藏  重命名  删除</text>
+            </view>
+        </mp-cell>
+        <mp-cell ext-class="cel">
+            <image class="pic" slot="icon" src="../../static/头.jpeg" />
+            <view class="block">
+                <view class="subblock">
+                    <text class="title">孔儒</text>
+                    <text class="time">一周前</text>
+                </view>
+                <text class="subtitle">分享   收藏  重命名  删除</text>
+            </view>
+        </mp-cell>
+    </mp-cells>
+</view>

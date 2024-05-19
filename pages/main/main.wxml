@@ -1,0 +1,51 @@
+<view class="body">
+    <view class="upblock">
+        <image style="flex-grow:1" class="pic" bindtap="scanCodeEvent" src="../../static/扫码.png"></image>
+        <mp-searchbar style="flex-grow:200" bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+    </view>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" previous-margin="30rpx" next-margin="30px" circular bindchange="bindChange">
+        <block wx:for="{{bannerUrl}}" wx:key="*this">
+            <swiper-item>
+                <image class="swiper-item {{currentBanner == index ? 'currentBanner' : 'otherBanner'}}" src="{{item}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+    <mp-cells ext-class="my-cells">
+        <mp-cell ext-class="cel">
+            <view class="block">
+                <view class="subblock">
+                    <text class="title">第一单元测试</text>
+                    <text class="working">进行中</text>
+                </view>
+                <text class="subtitle">提交时间：2024/03/17 16：09</text>
+            </view>
+        </mp-cell>
+        <mp-cell ext-class="cel">
+            <view class="block">
+                <view class="subblock">
+                    <text class="title">第五次课堂作业</text>
+                    <text class="working">进行中</text>
+                </view>
+                <text class="subtitle">提交时间：2024/04/02 1：25</text>
+            </view>
+        </mp-cell>
+        <mp-cell ext-class="cel">
+            <view class="block">
+                <view class="subblock">
+                    <text class="title">第四次单元测试</text>
+                    <text class="finish">已完成</text>
+                </view>
+                <text class="subtitle">提交时间：2024/04/12 11：05</text>
+            </view>
+        </mp-cell>
+        <mp-cell ext-class="cel">
+            <view class="block">
+                <view class="subblock">
+                    <text class="title">rewrite the abstract</text>
+                    <text class="finish">已完成</text>
+                </view>
+                <text class="subtitle">提交时间：2024/04/12 23：59</text>
+            </view>
+        </mp-cell>
+    </mp-cells>
+</view>

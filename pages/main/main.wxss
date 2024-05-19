@@ -1,0 +1,82 @@
+.upblock {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+.finish {
+  color: rgb(35, 173, 35);
+  font-size: 25rpx;
+  border-color: rgb(35, 173, 35);
+  border: solid;
+  border-width: 3rpx;
+  border-radius: 10%;
+  padding: 5rpx;
+}
+.working {
+  color: red;
+  border-radius: 10%;
+  font-size: 25rpx;
+  padding: 5rpx;
+  border: solid;
+  border-color: red;
+  border-width: 3rpx;
+}
+
+.title {
+  font-size: 28rpx;
+}
+.pic {
+  width: 60rpx;
+  height: 60rpx;
+}
+.biggerpic {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+  margin-left: 20rpx;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.subtitle {
+  font-size: 25rpx;
+  font-weight: lighter;
+  margin-top: 18rpx;
+}
+.subblock {
+  height: 30rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.picc {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 300rpx;
+}
+
+.swiper_item {
+  display: block;
+  width: 100%;
+  height: 350rpx;
+}
+.currentBanner {
+  transform: none;
+  transition: all 0.2s;
+}
+
+.otherBanner {
+  transform: scale(0.88);
+  transition: all 0.2s;
+}

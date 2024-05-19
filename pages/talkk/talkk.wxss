@@ -1,0 +1,47 @@
+.pic {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+}
+.biggerpic {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  margin-right: 30rpx;
+  margin-left: 20rpx;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+}
+.subtitle {
+  font-size: 25rpx;
+  margin-top: 18rpx;
+  font-weight: lighter;
+}
+.subblock {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.time {
+  font-size: 25rpx;
+  font-weight: lighter;
+  margin-right: rpx;
+}
+.picc {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 300rpx;
+}
+.title {
+  font-size: 30rpx;
+}

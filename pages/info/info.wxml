@@ -1,0 +1,13 @@
+<view data-weui-theme="{{theme}}">
+  <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+    <image class="avatar" src="{{avatarUrl}}"></image>
+  </button> 
+  <mp-form>
+    <mp-cells>
+      <mp-cell title="昵称">
+        <input  bindinput="changeNickname" type="nickname" class="weui-input" placeholder="请输入昵称"/>
+      </mp-cell>
+      <button bind:tap="toPersona">确定</button>
+    </mp-cells>
+  </mp-form>
+</view>

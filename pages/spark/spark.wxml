@@ -1,0 +1,22 @@
+<view class="body">
+    <view class="select">
+        <view>对话名称</view>
+        <image class="pic" src="../../static/编辑.png" />
+    </view>
+    <scroll-view scroll-y="true" scroll-into-view="{{sparkResult}}" scroll-with-animation="true" class="chat">
+    <view wc:for="{{chatList}}"><view class="chatbox">
+            <view class="Ai">
+                <image class="biggerpic" src="{{picture[index]}}" />
+                <view class="title">
+                <text>{{array[index]}}</text></view>
+            </view>
+            <view>{{sparkResult}}</view>
+        </view></view>
+
+        
+    </scroll-view>
+    <view class="below">
+        <input placeholder="请输入内容" data-event-opts="{{[['input',[['__set_model',['','TEXT','$event',[]]]]]]}}" class="inputt" value="{{TEXT}}" bindinput="__e" />
+        <image data-event-opts="{{[['tap',[['sendToSpark']]]]}}" class="belowpic" src="../../static/发送.png" bindtap="__e" />
+    </view>
+</view>

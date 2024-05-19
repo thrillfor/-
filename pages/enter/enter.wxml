@@ -1,0 +1,29 @@
+<view class="body">
+    <view class="title">
+        <text>题目:</text>
+        <input value="{{ title }}" bindinput="getTitle" />
+    </view>
+    <view class="option">
+        <view class="option-item">
+            <text>A:</text>
+            <input value="{{ optionA }}" data-option="A" bindinput="getOption" />
+        </view>
+        <view class="option-item">
+            <text>B:</text>
+            <input value="{{ optionB }}" data-option="B" bindinput="getOption" />
+        </view>
+        <view class="option-item">
+            <text>C:</text>
+            <input value="{{ optionC }}" data-option="C" bindinput="getOption" />
+        </view>
+        <view class="option-item">
+            <text>D:</text>
+            <input value="{{ optionD }}" data-option="D" bindinput="getOption" />
+        </view>
+    </view>
+    <view class="result">
+        <text>正确答案</text>
+        <input value="{{ result }}" bindinput="getResult" />
+    </view>
+    <button class="btn" type="primary" bindtap="submit">确定</button>
+</view>

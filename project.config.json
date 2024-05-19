@@ -16,12 +16,14 @@
       "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
-    }
+    },
+    "enhance": false,
+    "condition": false
   },
   "compileType": "miniprogram",
-  "libVersion": "2.32.1",
-  "appid": "wx775c2214e34aa966",
-  "projectname": "uni-shop-2",
+  "libVersion": "3.2.1",
+  "appid": "wx3c9e4728103b908e",
+  "projectname": "AI全能语音助手",
   "condition": {},
   "editorSetting": {
     "tabIndent": "insertSpaces",

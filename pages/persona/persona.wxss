@@ -1,0 +1,88 @@
+.title {
+  padding-top: 150rpx;
+  font-size: 80rpx;
+  margin-bottom: 100rpx;
+}
+.bnt {
+  margin-right: 80rpx;
+  height: 50rpx;
+  font-size: 25rpx;
+  border-radius: 30px;
+}
+.user-info {
+  width: 100%;
+  height: 240rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 32rpx;
+  margin-bottom: 20rpx;
+  background: #fff;
+}
+
+.user-info .avatar {
+  width: 165rpx;
+  height: 165rpx;
+  border-radius: 50%;
+  background: #dcdcdc;
+}
+.user-info .info {
+  flex: 1;
+  height: 85rpx;
+  padding-left: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+.user-info .name {
+  display: inline-block;
+  padding-top: 0rpx;
+  font-size: 38rpx;
+}
+.my-cells {
+  width: 100%;
+}
+.pic {
+  width: 30rpx;
+  height: 30rpx;
+  padding-right: 10rpx;
+}
+.ID {
+  margin-top: 35rpx;
+  font-size: 25rpx;
+  font-weight: lighter;
+}
+.block {
+  height: 10rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30rpx;
+}
+
+.rblock {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 150rpx;
+}
+.bpic {
+  width: 50rpx;
+  height: 50rpx;
+  padding-right: 10rpx;
+}
+.lblock {
+  padding-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.cel {
+  height: 40rpx;
+}
+
+.picc {
+  width: 30rpx;
+  height: 30rpx;
+}

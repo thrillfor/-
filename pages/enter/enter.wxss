@@ -1,0 +1,30 @@
+.body {
+    padding: 150rpx 0 0 50rpx;
+}
+
+.title, .option-item, .result {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 50rpx;
+}
+
+.option-item {
+    margin-bottom: 30rpx;
+}
+
+input {
+    border: 1rpx solid #999;
+    margin-left: 20rpx;
+    border-radius: 20rpx;
+    height: 70rpx;
+    width: 70%;
+    padding: 10rpx;
+    box-sizing: border-box;
+}
+
+.btn {
+    margin-top: 100rpx;
+}
